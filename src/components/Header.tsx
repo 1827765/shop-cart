@@ -7,7 +7,7 @@ import Searchbar from "./Searchbar";
 
 const Header = () => {
   return (
-    <header className=" text-white shadow-md sticky top-0 z-50">
+    <header className=" text-white shadow-md sticky top-0 z-50 bg-accent">
       <Container className=" text-black p-5 flex justify-between items-center h-16 max-w-full">
         <div className="flex items-center gap-2.5 w-auto md:w-1/3 justify-start md:gap-0">
           <MobileMenu /> <Logo />
